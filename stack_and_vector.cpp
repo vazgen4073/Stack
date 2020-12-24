@@ -31,15 +31,9 @@ void STDOUT(std::vector<int>& st, int& max)
 
 void STDOUT1(std::vector<int>& st, int& max)
 {
-    //  int max;
-    
     if (st.empty()) {
         return;
     }
-    //  max = st[0];
-    
-    //  max = *std::max_element(st.begin(), st.end());
-    
     std::cout << max << "\n";
 }
 
@@ -70,7 +64,6 @@ int main()
         }
     }
     
-    /* Enter your code here. Read input from STDIN. Print output to STDOUT */
     return 0;
 }
 
